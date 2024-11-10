@@ -1,0 +1,12 @@
+{
+    "name": "@dunno/zodenv",
+    "version": "0.0.1",
+    "exports": "./mod.ts",
+    "tasks": {
+        "dev": "deno run --watch main.ts"
+    },
+    "imports": {
+        "zod": "npm:zod@^3.23",
+        "dotenv": "npm:dotenv@^16.4"
+    }
+}
